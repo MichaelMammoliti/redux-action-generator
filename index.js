@@ -1,3 +1,5 @@
+import store from '../store';
+
 const generateActions = actions => {
   const newActions = {};
 
@@ -7,3 +9,5 @@ const generateActions = actions => {
 
   return newActions;
 };
+
+export default generateActions;
